@@ -3,9 +3,9 @@
 <folder> := 
  ( Temp            = C:\Temp
  | Downloads       = C:\Programs\Downloads
- | Start Menu      = "C:\Documents and Settings\junga\Start Menu"
+ | Start Menu      = "%USERPROFILE\Start Menu"
 #### Voice   
 # | Vocola          = C:\Programs\NatLink\Vocola
 # | NatLink         = C:\Programs\NatLink\MacroSystem
-# | NatSpeak        = C:\Programs\NatSpeak\Users\junga\current
+# | NatSpeak        = C:\Programs\NatSpeak\Users\username\current
  );
