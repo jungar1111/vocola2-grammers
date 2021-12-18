@@ -10,7 +10,7 @@ include keys.vch;
 test box = MsgBoxConfirm("Testing",65,"Test Window");
 test voice = TTSPlayString("Welcome to the jungle");
 
-#things DOS, *nix, etc
+#min things DOS, *nix, etc
 save file = {Ctrl+s};
 safe file = {Ctrl+s};
 new file = {Ctrl+n};
@@ -22,11 +22,9 @@ copy that = {Ctrl+c};
 paste that = {Ctrl+v};
 cut that = {Ctrl+x};
 print that = {Ctrl+p};
-#crazy text <_anything> = $1;
 insert text <_anything> = $1;
 find <_anything> = {Ctrl+f} $1 {Enter};
 Vocola line = Vocola.Print("----------------");
-# ---------------------------------------------------------------------------
 
 # Text Editing
 <direction>  := { Left | Right | Up | Down };
@@ -47,8 +45,7 @@ crazy 1 left = Keys.SendInput({left_1});
 
 ##Kill <n>              = {Del_$1};
 ##[Kill] Back <n>       = {Backspace_$1};
-##Delete7				  = {Del};
-### dsgrab
+
 #[One]  <left_right>= {Ctrl+$1};
 #Delete 
 #<n> := 1..99;
