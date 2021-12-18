@@ -1,6 +1,6 @@
-# Voice commands for kitty
+# Voice commands for kitty/putty
 ##include Unimacro.vch;
-## Voice commands for kitty
+
 include keys.vch;
 
 <n> := 0..100;
