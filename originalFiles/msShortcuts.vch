@@ -1,0 +1,34 @@
+#msShortcuts
+test m s shortcuts = "loaded";
+
+Open File = SendSystemKeys({Ctrl+o});
+Save File = SendSystemKeys({Ctrl+s});
+Save As = SendSystemKeys({Alt+f})a;
+Recent Files = SendSystemKeys({Alt+f});
+print = {Ctrl+p};
+[Recent] File 1..9 = SendSystemKeys({Alt+f}) $1;
+Close That = SendSystemKeys({Alt+f})c;
+
+Save File = {Ctrl+s};
+Save File = {Ctrl+s};
+Save As = {Alt+f}A;
+Recent Files = {Alt+f}r;
+Recent File 1..4 = {Alt+f} $1;
+
+Find That = {Ctrl+c}{Ctrl+f}{Ctrl+v}{Enter}{Esc};
+Replace Text = {Alt+e}e;
+
+(Subscript=b | Superscript=p) That = {Alt+o}f{Alt+ $1 }{Enter};
+En Dash = {Ctrl+NumKey-};
+Em Dash = {Ctrl+Alt+NumKey-};
+
+toggle bold = Keys.SendInput({Ctrl+b});
+Bold that = Keys.SendInput({Ctrl+b});
+toggle italics = Keys.SendInput({Ctrl+i});
+italicize that = Keys.SendInput({Ctrl+i});
+toggle underline = Keys.SendInput({Ctrl+u});
+underline that = Keys.SendInput({Ctrl+u});
+
+
+
+

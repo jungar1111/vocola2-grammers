@@ -1,0 +1,9 @@
+#ignore 
+./ActiveGrammars
+./CompiledGrammars
+personal.vch
+*.txt
+*.bak
+*.asm
+*.html
+./enx

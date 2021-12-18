@@ -1,0 +1,36 @@
+# URL shortcuts for both IE and Mozilla
+
+Show ( google   = www.google.com
+     | yahoo    = www.yahoo.com
+     | ScanSoft = www.scansoft.com/naturallyspeaking
+     ) = {Alt+d}http:// $1 {Enter};
+
+<url> := ( Vocola       = vocola.net
+         | Amazon       = www.Amazon.com
+         | Weather Map  = www.wunderground.com/US/Region/US/2xFronts.html
+         | Maps         = maps.google.com
+         | Kayak        = www.kayak.com
+		 | jungarnet	= jungar.net
+		 | jungarnet	= jungar.net
+         | jungarnet	= jungar.net
+		 | jungar net	= jungar.net
+		 | junk net		= jungar.net
+		 | work email	= outlook.office.com
+		 | Yahoo email = mail.yahoo.com
+         | Yahoo mail = mail.yahoo.com
+		 | jungar email = webmail.1and1.com
+		 | junk email = webmail.1and1.com
+		 | monger email  = mail.monger.net
+		 | 1 and 1		= 1and1.com
+		 | partners	healthcare	= www.partners.org
+		 | Beth Israel Deaconess = bidmc.org
+         | BIDMC = bidmc.org
+		 | Audible = audible.com
+		 | github = github.com
+		 | Cisco = cisco.com
+		 | Google maps = maps.google.com
+		 | last pass = lastpass.com
+		 | fidelity.com
+		 | TD ameritrade = tdameritrade.com
+		 | Amazon = amazon.com
+);
