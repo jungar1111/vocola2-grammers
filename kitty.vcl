@@ -43,7 +43,7 @@ root | root@ | msd | data.host | .14 | .214 | .181 | .28 | virl :
 	VI				= 'vi ';
 	vim				= 'vi ';
 	VI <_anything>	= 'vi $1';
-		vim <_anything>	= 'vi $1';
+	vim <_anything>	= 'vi $1';
 	them <_anything>	= 'vi $1';
 	control our = {Ctrl+r};
 	control See = {Ctrl+c};
