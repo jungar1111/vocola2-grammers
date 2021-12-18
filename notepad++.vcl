@@ -49,7 +49,7 @@ Close file = Keys.SendInput({Ctrl+w});
 close file = Keys.SendInput ({Ctrl+w});
 save file as = {Ctrl+Alt+S};
 #
-##jungar | root | dns.hostname.com :
+## root | dns.hostname.com :
 ##.vch | .vcl: 	
 #
 .vch | .vcl: previous tab 
